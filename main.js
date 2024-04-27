@@ -5,7 +5,7 @@ all_filterbtns.forEach((each_filterbtn) => {
     // ======================================== remove the existing class activefilterbtn class from filterbtns ========================================
     let active_filterbtn = document.querySelector(".active-filterbtn");
     active_filterbtn.classList.remove("active-filterbtn");
-    // ======================================== add the activefilterbtns class clicked on the particular btn ========================================
+    // ======================================== add the activefilterbtns class clicked on the particular targeted btn ========================================
     e.target.classList.add("active-filterbtn");
     all_filterable_cards.forEach((each_filterable_card)=>{
         // ======================================== if the each filterable cards & each filterable btns custom attribute's values are same or the filterbtns custom attributes are set to all then show all the filtered cards otherwise show the categorised cards details & hide other cards ========================================

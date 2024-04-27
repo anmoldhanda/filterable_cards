@@ -70,6 +70,7 @@ body {
   flex-basis: 300px;
   background: white;
   border-radius: 10px;
+  cursor: pointer;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -80,6 +81,33 @@ body {
 .photobox {
   height: 11em;
   width: 100%;
+  position: relative;
+}
+
+.overlay {
+  background: #6495ed;
+  color: white;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 12px;
+  bottom: -2px;
+  backdrop-filter: blur(50px);
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.photobox:hover .overlay {
+  opacity: 1;
+}
+
+.overlay svg {
+  fill: white;
+  height: 10px;
+  width: auto;
 }
 
 .pic {
