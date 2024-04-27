@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dynamic filterable cards</title>
+    <!-- ======================================== custom css ======================================== -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="projectdetails-container">
+        <h2 class="headline">dynamic filterable cards</h2>
+        <p class="description">discover the wines by category</p>
+    </div>
+    <div class="filterablecards-filterablebtns-container">
+        <div class="filterablebtns-container">
+            <button class="filterbtn active-filterbtn" data-category="all">all items</button>
+            <button class="filterbtn" data-category="clothing">clothes</button>
+            <button class="filterbtn" data-category="shoes">shoes</button>
+            <button class="filterbtn" data-category="phone">mobile phones</button>
+        </div>
+        <div class="filterable-cards-container">
+    <!-- ======================================== clothing area ======================================== -->
+            <div class="filterable-card" data-category="clothing">
+                <div class="photobox">
+                    <img src="images/cloth-1.jpg" alt="clothing pic" class="pic">
+                </div>
+                <div class="contentbox">
+                    <h4 class="card-headline">clothing brand 1</h4>
+                    <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, odio!</p>
+                </div>
+            </div>
+            <div class="filterable-card" data-category="clothing">
+                <div class="photobox">
+                    <img src="images/cloth-2.jpg" alt="clothing pic" class="pic">
+                </div>
+                <div class="contentbox">
+                    <h4 class="card-headline">clothing brand 2</h4>
+                    <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, odio!</p>
+                </div>
+            </div>
+            <div class="filterable-card" data-category="clothing">
+                <div class="photobox">
+                    <img src="images/cloth-3.jpg" alt="clothing pic" class="pic">
+                </div>
+                <div class="contentbox">
+                    <h4 class="card-headline">clothing brand 3</h4>
+                    <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, odio!</p>
+                </div>
+            </div>
+    <!-- ======================================== shoes area ======================================== -->
+            <div class="filterable-card" data-category="shoes">
+                <div class="photobox">
+                    <img src="images/shoe-1.jpg" alt="shoes pic" class="pic">
+                </div>
+                <div class="contentbox">
+                    <h4 class="card-headline">shoes brand 1</h4>
+                    <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, odio!</p>
+                </div>
+            </div>
+            <div class="filterable-card" data-category="shoes">
+                <div class="photobox">
+                    <img src="images/shoe-2.jpg" alt="shoes pic" class="pic">
+                </div>
+                <div class="contentbox">
+                    <h4 class="card-headline">shoes brand 2</h4>
+                    <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, odio!</p>
+                </div>
+            </div>
+            <!-- ======================================== mobile phones area ======================================== -->
+            <div class="filterable-card" data-category="phone">
+                <div class="photobox">
+                    <img src="images/phone-1.jpg" alt="mobile phones pic" class="pic">
+                </div>
+                <div class="contentbox">
+                    <h4 class="card-headline">mobile brand 1</h4>
+                    <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, odio!</p>
+                </div>
+            </div>
+            <div class="filterable-card" data-category="phone">
+                <div class="photobox">
+                    <img src="images/phone-2.jpg" alt="mobile phones pic" class="pic">
+                </div>
+                <div class="contentbox">
+                    <h4 class="card-headline">mobile brand 2</h4>
+                    <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, odio!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ======================================== custom css ======================================== -->
+    <script src="main.js"></script>
+  </body>
+</html>
